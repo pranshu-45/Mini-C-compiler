@@ -1,0 +1,18 @@
+Assignment4 
+Group 37
+Hetang Patel(200101076), Pranshu Shah(200101085)
+
+To test the program use the following commands in terminal after navigating to the project folder
+make
+make test
+
+The test input of the program is in the A4_37.nc file
+
+The output of the program will be inside the file output.txt generated during execution
+The output is generated with the help of yydebug feature of bison which shows step by step execution of given input
+
+If there is any error in the given input, it will be shown at the end of the output.txt file
+If there is no error reflected in the output.txt file, it means that the input is syntactically accepted by the parser
+
+To clear the unnecessary files after checking use the following command
+make clean
